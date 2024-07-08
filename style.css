@@ -1,0 +1,101 @@
+/* Měla jsem špatně 
+     1) Nastavit u search baru ne 
+     fixní velikost, ale v procentech
+     2)tu hlavní část dát do flex display, 
+     na dva divs, a justify na space between
+     3) na to aby se ta tabulka nesmrskávala
+     stačilo max width v px  */
+body {
+  background-color: #f0fbff;
+  font-family: Roboto;
+}
+
+a {
+  color: #2e94b9;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  border-top: solid #acdcee 1px;
+  border-bottom: solid #acdcee 1px;
+  margin: 20px 20px 10;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 40px;
+}
+
+footer {
+  opacity: 0.6;
+  padding: 20px 40px 40px;
+}
+
+.container {
+  background-color: white;
+  max-width: 700px;
+  margin: 60px auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 200px rgba(0, 0, 0, 0.2);
+}
+
+#search-bar {
+  width: 75%;
+  border-radius: 8px;
+  border: none;
+  background-color: #acdcee;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.search-button {
+  padding: 20px;
+  background-color: #2e94b9;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.current {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.current-weather span {
+  opacity: 0.6;
+}
+
+.values {
+  color: #475053;
+}
+
+.current-temperature {
+  font-size: 80px;
+  font-weight: 900;
+  padding-top: 20px;
+}
+
+.current-temperature .emoji {
+  font-weight: 400;
+  font-size: 40px;
+  position: relative;
+  bottom: 10px;
+}
+
+.current-temperature .celsius {
+  font-weight: 400;
+  font-size: 30px;
+  position: relative;
+  bottom: 36px;
+}
