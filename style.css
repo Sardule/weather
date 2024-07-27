@@ -84,18 +84,21 @@ footer {
   font-size: 80px;
   font-weight: 900;
   padding-top: 20px;
+  display: flex;
+  line-height: 88px;
 }
 
 .current-temperature .emoji {
   font-weight: 400;
   font-size: 40px;
-  position: relative;
-  bottom: 10px;
 }
 
 .current-temperature .celsius {
   font-weight: 400;
   font-size: 30px;
-  position: relative;
-  bottom: 36px;
+  margin-top: -17px;
+}
+.weather-app-icon {
+  width: 88px;
+  height: 88px;
 }
